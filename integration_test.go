@@ -11,9 +11,9 @@ import (
 	"time"
 	"unsafe"
 
-	"zombiezen.com/go/capnproto2"
-	air "zombiezen.com/go/capnproto2/internal/aircraftlib"
-	"zombiezen.com/go/capnproto2/internal/capnptool"
+	"github.com/kentik/go-capnproto2"
+	air "github.com/kentik/go-capnproto2/internal/aircraftlib"
+	"github.com/kentik/go-capnproto2/internal/capnptool"
 )
 
 // A marshalTest tests whether a message can be encoded then read by the

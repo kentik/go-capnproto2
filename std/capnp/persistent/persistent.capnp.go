@@ -4,10 +4,10 @@ package persistent
 
 import (
 	context "golang.org/x/net/context"
-	capnp "zombiezen.com/go/capnproto2"
-	text "zombiezen.com/go/capnproto2/encoding/text"
-	schemas "zombiezen.com/go/capnproto2/schemas"
-	server "zombiezen.com/go/capnproto2/server"
+	capnp "github.com/kentik/go-capnproto2"
+	text "github.com/kentik/go-capnproto2/encoding/text"
+	schemas "github.com/kentik/go-capnproto2/schemas"
+	server "github.com/kentik/go-capnproto2/server"
 )
 
 const PersistentAnnotation = uint64(0xf622595091cafb67)

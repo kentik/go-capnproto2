@@ -3,9 +3,9 @@ package pogs_test
 import (
 	"fmt"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/demo/books"
-	"zombiezen.com/go/capnproto2/pogs"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/demo/books"
+	"github.com/kentik/go-capnproto2/pogs"
 )
 
 var bookData = []byte{

@@ -4,10 +4,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/fulfiller"
-	"zombiezen.com/go/capnproto2/internal/queue"
-	rpccapnp "zombiezen.com/go/capnproto2/std/capnp/rpc"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/fulfiller"
+	"github.com/kentik/go-capnproto2/internal/queue"
+	rpccapnp "github.com/kentik/go-capnproto2/std/capnp/rpc"
 )
 
 // newQuestion creates a new question with an unassigned ID.

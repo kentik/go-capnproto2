@@ -161,4 +161,4 @@ rule), that is selected.
 3) Otherwise, there are multiple fields, and all are ignored; no error
 occurs.
 */
-package pogs // import "zombiezen.com/go/capnproto2/pogs"
+package pogs // import "github.com/kentik/go-capnproto2/pogs"

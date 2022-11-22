@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"zombiezen.com/go/capnproto2"
+	"github.com/kentik/go-capnproto2"
 )
 
 type staticData struct {

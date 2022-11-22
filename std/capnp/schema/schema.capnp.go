@@ -5,9 +5,9 @@ package schema
 import (
 	math "math"
 	strconv "strconv"
-	capnp "zombiezen.com/go/capnproto2"
-	text "zombiezen.com/go/capnproto2/encoding/text"
-	schemas "zombiezen.com/go/capnproto2/schemas"
+	capnp "github.com/kentik/go-capnproto2"
+	text "github.com/kentik/go-capnproto2/encoding/text"
+	schemas "github.com/kentik/go-capnproto2/schemas"
 )
 
 // Constants defined in schema.capnp.

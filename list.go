@@ -5,7 +5,7 @@ import (
 	"math"
 	"strconv"
 
-	"zombiezen.com/go/capnproto2/internal/strquote"
+	"github.com/kentik/go-capnproto2/internal/strquote"
 )
 
 // A List is a reference to an array of values.

@@ -6,9 +6,9 @@ import (
 	"math"
 	"reflect"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/nodemap"
-	"zombiezen.com/go/capnproto2/internal/schema"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/nodemap"
+	"github.com/kentik/go-capnproto2/internal/schema"
 )
 
 // Extract copies s into val, a pointer to a Go struct.

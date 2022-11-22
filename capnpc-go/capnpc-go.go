@@ -23,13 +23,13 @@ import (
 	"strings"
 	"text/template"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/schema"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/schema"
 )
 
 // Non-stdlib import paths.
 const (
-	capnpImport   = "zombiezen.com/go/capnproto2"
+	capnpImport   = "github.com/kentik/go-capnproto2"
 	textImport    = capnpImport + "/encoding/text"
 	schemasImport = capnpImport + "/schemas"
 	serverImport  = capnpImport + "/server"

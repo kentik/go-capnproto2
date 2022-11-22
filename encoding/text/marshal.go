@@ -8,11 +8,11 @@ import (
 	"math"
 	"strconv"
 
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/nodemap"
-	"zombiezen.com/go/capnproto2/internal/schema"
-	"zombiezen.com/go/capnproto2/internal/strquote"
-	"zombiezen.com/go/capnproto2/schemas"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/nodemap"
+	"github.com/kentik/go-capnproto2/internal/schema"
+	"github.com/kentik/go-capnproto2/internal/strquote"
+	"github.com/kentik/go-capnproto2/schemas"
 )
 
 // Marker strings.

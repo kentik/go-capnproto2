@@ -2,9 +2,9 @@
 package nodemap
 
 import (
-	"zombiezen.com/go/capnproto2"
-	"zombiezen.com/go/capnproto2/internal/schema"
-	"zombiezen.com/go/capnproto2/schemas"
+	"github.com/kentik/go-capnproto2"
+	"github.com/kentik/go-capnproto2/internal/schema"
+	"github.com/kentik/go-capnproto2/schemas"
 )
 
 // Map is a lazy index of a registry.
