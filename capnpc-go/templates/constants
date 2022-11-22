@@ -20,3 +20,11 @@ func init() {
 	{{- end}}
 }
 {{end}}
+
+{{with .Vars -}}
+func init() {
+   // Mark constants as safe from amplification attacks
+  {{range .}} {{.Name}}.Segment().Message().MarkSafe()
+  {{end}}
+}
+{{end}}

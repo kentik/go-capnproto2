@@ -29,6 +29,13 @@ func init() {
 	ConstList.Segment().Message().ReadLimiter().Reset((1 << 64) - 1)
 }
 
+func init() {
+	// Mark constants as safe from amplification attacks
+	ConstDate.Segment().Message().MarkSafe()
+	ConstList.Segment().Message().MarkSafe()
+
+}
+
 type Zdate struct{ capnp.Struct }
 
 // Zdate_TypeID is the unique identifier for the type Zdate.
